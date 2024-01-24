@@ -1,0 +1,865 @@
+[{
+    "min_step": 0.05,
+    "data_frac": 0.9957127545551983,
+    "rtt": 0.010433080193756735,
+    "tx_parts": [
+      0.75,
+      0.25
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.2217438105489774,
+      0.7782561894510226
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 1.0,
+    "rtt": 0.012398302786709524,
+    "tx_parts": [
+      1.0,
+      0.0
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      1.0,
+      0.0
+    ],
+    "channel_probabilities": [
+      1.0,
+      0.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9662198391420912,
+    "rtt": 0.011859309100998888,
+    "tx_parts": [
+      1.0,
+      0.050000000000000044
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.009988901220865706,
+      0.9794672586015538
+    ],
+    "channel_probabilities": [
+      0.009988901220865706,
+      0.9794672586015538
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9807073954983923,
+    "rtt": 0.011371094535519122,
+    "tx_parts": [
+      1.0,
+      0.09999999999999998
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.009289617486338797,
+      0.8748633879781421
+    ],
+    "channel_probabilities": [
+      0.009289617486338797,
+      0.8748633879781421
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9683646112600536,
+    "rtt": 0.01041751052048727,
+    "tx_parts": [
+      1.0,
+      0.15000000000000002
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.009966777408637873,
+      0.8133997785160576
+    ],
+    "channel_probabilities": [
+      0.009966777408637873,
+      0.8133997785160576
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9673097534833869,
+    "rtt": 0.009467783379501375,
+    "tx_parts": [
+      1.0,
+      0.19999999999999996
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.009972299168975069,
+      0.7839335180055401
+    ],
+    "channel_probabilities": [
+      0.009972299168975069,
+      0.7839335180055401
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9657020364415863,
+    "rtt": 0.009742666481687028,
+    "tx_parts": [
+      1.0,
+      0.25
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.018312985571587125,
+      0.7741398446170921
+    ],
+    "channel_probabilities": [
+      0.018312985571587125,
+      0.7741398446170921
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 1.0,
+    "rtt": 0.01247212433011789,
+    "tx_parts": [
+      0.95,
+      0.050000000000000044
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.022508038585209004,
+      0.977491961414791
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9402852049910874,
+    "rtt": 0.01230595545023696,
+    "tx_parts": [
+      0.95,
+      0.09999999999999998
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.8900473933649289
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.8900473933649289
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9689174705251876,
+    "rtt": 0.011029080199115067,
+    "tx_parts": [
+      0.95,
+      0.15000000000000002
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.8285398230088495
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.8285398230088495
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9565916398713826,
+    "rtt": 0.010092157983193288,
+    "tx_parts": [
+      0.95,
+      0.19999999999999996
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.8380952380952381
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.8380952380952381
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9292604501607717,
+    "rtt": 0.00975325836216838,
+    "tx_parts": [
+      0.95,
+      0.25
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.7785467128027682
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.7785467128027682
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.4902962206332993,
+    "rtt": 0.010468577083333356,
+    "tx_parts": [
+      0.95,
+      0.30000000000000004
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.7104166666666667
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.7104166666666667
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9935691318327974,
+    "rtt": 0.011255603020496215,
+    "tx_parts": [
+      0.9,
+      0.09999999999999998
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.13754045307443366,
+      0.8624595469255664
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9485530546623794,
+    "rtt": 0.011063010169491507,
+    "tx_parts": [
+      0.9,
+      0.15000000000000002
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.002824858757062147,
+      0.8514124293785311
+    ],
+    "channel_probabilities": [
+      0.002824858757062147,
+      0.8514124293785311
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.947481243301179,
+    "rtt": 0.010408493212669678,
+    "tx_parts": [
+      0.9,
+      0.19999999999999996
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.8088235294117647
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.8088235294117647
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9297587131367292,
+    "rtt": 0.009761258362168405,
+    "tx_parts": [
+      0.9,
+      0.25
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.7895040369088812
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.7895040369088812
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.5211796246648793,
+    "rtt": 0.00982075102880659,
+    "tx_parts": [
+      0.9,
+      0.30000000000000004
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.00102880658436214,
+      0.6810699588477366
+    ],
+    "channel_probabilities": [
+      0.00102880658436214,
+      0.6810699588477366
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.0,
+    "rtt": 0.0,
+    "tx_parts": [
+      0.9,
+      0.35
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.0
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9222936763129689,
+    "rtt": 0.01130651133062174,
+    "tx_parts": [
+      0.85,
+      0.15000000000000002
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.07960488088320744,
+      0.9203951191167926
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.7631296891747053,
+    "rtt": 0.01059305196629215,
+    "tx_parts": [
+      0.85,
+      0.19999999999999996
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.007724719101123595,
+      0.8265449438202247
+    ],
+    "channel_probabilities": [
+      0.007724719101123595,
+      0.8265449438202247
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9333333333333333,
+    "rtt": 0.01101216734693877,
+    "tx_parts": [
+      0.85,
+      0.25
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.8
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.8
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.3802055164954029,
+    "rtt": 0.011455937411095305,
+    "tx_parts": [
+      0.85,
+      0.30000000000000004
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.001422475106685633,
+      0.7467994310099573
+    ],
+    "channel_probabilities": [
+      0.001422475106685633,
+      0.7467994310099573
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.5714285714285714,
+    "rtt": 0.01698775,
+    "tx_parts": [
+      0.85,
+      0.3500000000000001
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.25
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.25
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.11904761904761904,
+    "rtt": 0.0604928,
+    "tx_parts": [
+      0.85,
+      0.4
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.8333333333333334
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.8333333333333334
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9973204715969989,
+    "rtt": 0.010712401397098349,
+    "tx_parts": [
+      0.8,
+      0.19999999999999996
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.17517463729177862,
+      0.8248253627082214
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9614147909967846,
+    "rtt": 0.010208983835005564,
+    "tx_parts": [
+      0.8,
+      0.25
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.016722408026755852,
+      0.806577480490524
+    ],
+    "channel_probabilities": [
+      0.016722408026755852,
+      0.806577480490524
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.45203252032520325,
+    "rtt": 0.010658852517985607,
+    "tx_parts": [
+      0.8,
+      0.30000000000000004
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.002398081534772182,
+      0.7302158273381295
+    ],
+    "channel_probabilities": [
+      0.002398081534772182,
+      0.7302158273381295
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.004629629629629629,
+    "rtt": 0.5261534,
+    "tx_parts": [
+      0.8,
+      0.3500000000000001
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.4,
+      0.2
+    ],
+    "channel_probabilities": [
+      0.4,
+      0.2
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.0030721966205837174,
+    "rtt": 1.7783225,
+    "tx_parts": [
+      0.8,
+      0.4
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.5,
+      0.0
+    ],
+    "channel_probabilities": [
+      0.5,
+      0.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 1.0,
+    "rtt": 0.020443,
+    "tx_parts": [
+      0.8,
+      0.44999999999999996
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.0
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.9941050375133976,
+    "rtt": 0.01380729811320754,
+    "tx_parts": [
+      0.75,
+      0.25
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.22749326145552562,
+      0.7725067385444744
+    ],
+    "channel_probabilities": [
+      1.0,
+      1.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.2095774647887324,
+    "rtt": 0.07735303763440857,
+    "tx_parts": [
+      0.75,
+      0.30000000000000004
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.6129032258064516,
+      0.271505376344086
+    ],
+    "channel_probabilities": [
+      0.6129032258064516,
+      0.271505376344086
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.003161222339304531,
+    "rtt": 0.782648,
+    "tx_parts": [
+      0.75,
+      0.35
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.0,
+      0.3333333333333333
+    ],
+    "channel_probabilities": [
+      0.0,
+      0.3333333333333333
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.0031746031746031746,
+    "rtt": 1.58695,
+    "tx_parts": [
+      0.75,
+      0.4
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.5,
+      0.0
+    ],
+    "channel_probabilities": [
+      0.5,
+      0.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  },
+  {
+    "min_step": 0.05,
+    "data_frac": 0.0051813471502590676,
+    "rtt": 1.4418015,
+    "tx_parts": [
+      0.75,
+      0.44999999999999996
+    ],
+    "inc_direction": [
+      -1,
+      1
+    ],
+    "channel_rtts": [
+      0.5,
+      0.0
+    ],
+    "channel_probabilities": [
+      0.5,
+      0.0
+    ],
+    "epsilon_rtt": 0.2,
+    "epsilon_prob_upper": 0.6,
+    "epsilon_prob_lower": 0.01
+  }
+]
