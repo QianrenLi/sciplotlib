@@ -16,7 +16,7 @@ Collections of plot functions for scientific purpose.
     <td>To be updated ...</td>
   </tr>
   <tr>
-    <td><strong>tsne.py</strong></td>
+    <td><strong><a href="./src/tsne.py">tsne.py</a></strong></td>
     <td><strong>line.py</strong></td>
     <td><strong>pie.py</strong></td>
   </tr>
