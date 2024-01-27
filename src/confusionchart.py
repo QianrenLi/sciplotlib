@@ -26,7 +26,7 @@ def plot_confusion_matrix(dataStruct:DataStruct, cmap=plt.cm.Blues, fontsize=20)
         print('Confusion matrix, without normalization')
     print(conf_numpy)
 
-    plt.figure(figsize=(8, 7))
+    # plt.figure(figsize=(8, 7))
     plt.imshow(conf_numpy, interpolation='nearest', cmap=cmap)
     plt.title(title, fontsize=fontsize)
     cbar = plt.colorbar()
