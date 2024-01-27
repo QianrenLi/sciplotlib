@@ -13,7 +13,6 @@ def plot_confusion_matrix(dataStruct:DataStruct, cmap=plt.cm.Blues, fontsize=20)
     labels = dataStruct.labels
     pre = dataStruct.pre
     classes = dataStruct.classes
-    filepath = dataStruct.filePath
     title = dataStruct.title
     
     conf_numpy = confusion_matrix(labels, pre) if not dataStruct.conf_matrix else np.asarray(dataStruct.conf_matrix)
@@ -47,7 +46,7 @@ def plot_confusion_matrix(dataStruct:DataStruct, cmap=plt.cm.Blues, fontsize=20)
     plt.ylabel('True label', fontsize=fontsize)
     plt.xlabel('Predicted label', fontsize=fontsize)
     plt.tight_layout()
-    plt.savefig(filepath, dpi = dataStruct.dpi)
+    plt.savefig(dataStruct.filePath, dpi = dataStruct.dpi)
 
     if dataStruct.show:
         plt.show()
