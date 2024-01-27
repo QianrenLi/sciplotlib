@@ -4,11 +4,21 @@ class DataStruct():
         self.ydata = []
         self.val = []
 
+        # heatmap, line, bar            
         self.xlabel = []
         self.ylabel = []
+        self.title = ''
 
-        self.filePath = ''
+        # conf_matrix
+        self.labels = []
+        self.pre = []
+        self.classes = []
+        self.normalize = False
+        self.conf_matrix = []
+
+        self.filePath = 'untitled.png'
         self.dpi = 300
+        self.show = False
 
     """
     @description  :
@@ -18,6 +28,6 @@ class DataStruct():
     @Returns  :
     -------
     """
-    
+
     def __str__(self) -> str:
         return f'xdata: {self.xdata}\nydata: {self.ydata}\nval: {self.val}\nfilePath: {self.filePath}'

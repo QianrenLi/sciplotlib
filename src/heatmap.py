@@ -48,12 +48,15 @@ def heatmap_plot(dataStruct: DataStruct):
     plt.ylabel(dataStruct.ylabel)
     plt.savefig(dataStruct.filePath, dpi = dataStruct.dpi)
 
+    if dataStruct.show:
+        plt.show()
+
 if __name__ == '__main__':
     ## read data
     dataStruct = DataStruct()
     import json
     
-    with open('example/test3.json', 'r') as f:
+    with open('example/heatmap.json', 'r') as f:
         data = json.load(f)
         for _data in data:
             if _data['rtt'] > 1 or _data['rtt'] <= 0 or _data['tx_parts'][1] > 0.3:
@@ -65,7 +68,8 @@ if __name__ == '__main__':
     dataStruct.xlabel = '2.4G Channel Occupancy'
     dataStruct.ylabel = '5G Channel Occupancy'
 
-    dataStruct.filePath = 'example/test3.png'
+    dataStruct.filePath = 'example/heatmap.png'
     dataStruct.dpi = 300
+    dataStruct.show = True
 
     heatmap_plot(dataStruct)
