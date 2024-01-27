@@ -21,7 +21,7 @@ Collections of plot functions for scientific purpose.
     <td><strong>pie.py</strong></td>
   </tr>
   <tr>
-    <td>To be updated ...</td>
+    <td><img src="./src/example/tsne.png" alt="tsne"></td>
     <td>To be updated ...</td>
     <td>To be updated ...</td>
   </tr>

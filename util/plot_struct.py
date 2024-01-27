@@ -16,6 +16,10 @@ class DataStruct():
         self.normalize = False
         self.conf_matrix = []
 
+        # tsne
+        self.features = []
+        self.tsne_result = []
+
         self.filePath = 'untitled.png'
         self.dpi = 300
         self.show = False
