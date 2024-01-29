@@ -4,23 +4,23 @@ Collections of plot functions for scientific purpose.
 
 ## Gallery
 
-<table>
+<table align="center">
   <tr>
     <th><a href="./src/heatmap.py">heatmap.py</a></th>
     <th><a href="./src/confusionchart.py">confusionchart.py</a></th>
     <th>barchart.py</th>
   </tr>
-  <tr>
+  <tr align="center">
     <td><img src="./src/example/heatmap.png" alt="heatmap"></td>
     <td><img src="./src/example/confusion_matrix.png" alt="confusion matrix"></td>
     <td>To be updated ...</td>
   </tr>
   <tr>
-    <td><strong><a href="./src/tsne.py" alt="tsne">tsne.py</a></strong></td>
-    <td><strong>line.py</strong></td>
-    <td><strong>pie.py</strong></td>
+    <th align="center"><a href="./src/tsne.py" alt="tsne">tsne.py</a></th>
+    <th align="center">line.py</th>
+    <th align="center">pie.py</th>
   </tr>
-  <tr>
+  <tr align="center">
     <td><img src="./src/example/tsne.png" alt="tsne"></td>
     <td>To be updated ...</td>
     <td>To be updated ...</td>
