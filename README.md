@@ -25,6 +25,16 @@ Collections of plot functions for scientific purpose.
     <td>To be updated ...</td>
     <td>To be updated ...</td>
   </tr>
+  <tr>
+    <th align="center">box.py</th>
+    <th align="center">cdf.py</th>
+    <th align="center">pdf.py</th>
+  </tr>
+  <tr align="center">
+    <td>To be updated ...</td>
+    <td>To be updated ...</td>
+    <td>To be updated ...</td>
+  </tr>
 </table>
 
 ## Dependencies
@@ -32,3 +42,14 @@ Collections of plot functions for scientific purpose.
 ```
 pip3 install -r requirements.txt
 ```
+
+## Useful Resources
+
+Python:
+
++ [SciencePlots](https://github.com/garrettj403/SciencePlots) and [LovelyPlots](https://github.com/killiansheriff/LovelyPlots): scientific plot style for line plot in matplotlib.
++ [python_plot_utils](https://github.com/guanyingc/python_plot_utils): a simple code for plotting figure, colorbar, and cropping with python.
+
+MATLAB:
+
++ [paper_quality_plot.matlab](https://github.com/LimHyungTae/paper_quality_plot.matlab): paper quality plots of CDF, PDF, line graph, box plots, ...
