@@ -4,12 +4,20 @@ class DataStruct():
         self.ydata = []
         self.val = []
 
-        # heatmap, line, bar            
+        # heatmap, line           
         self.xlabel = []
         self.ylabel = []
         self.title = ''
 
-        # conf_matrix
+        # bar
+        self.xlabel = []
+        self.ylabel = []
+        self.classes = []
+        self.bar_width = 0.35
+        self.inter_width = 0.35
+        self.print_ydata = False
+
+        # conf_matrix, bar
         self.labels = []
         self.pre = []
         self.classes = []
@@ -20,6 +28,7 @@ class DataStruct():
         self.features = []
         self.tsne_result = []
 
+        self.color = []
         self.filePath = 'untitled.png'
         self.dpi = 300
         self.show = False
