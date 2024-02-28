@@ -18,7 +18,12 @@ def plot_barchart(data: DataStruct):
     class_num = len(data.classes)
     comparison_num = len(x_data[0])
 
-    assert class_num > 0, 'No class data'
+    is_label = True
+    # assert class_num > 0, 'No class data'
+    if class_num == 0:
+        class_num = 1
+        is_label = False
+        
     assert comparison_num > 0, 'No comparison data'
 
     ## plot
@@ -34,7 +39,10 @@ def plot_barchart(data: DataStruct):
     
 
     for i in range(class_num):
-        plt.bar(index * (inter_width + class_num * bar_width) + i * bar_width, y_data[i], bar_width, alpha=opacity, label=data.classes[i], color = next(color_iter))
+        if is_label:
+            plt.bar(index * (inter_width + class_num * bar_width) + i * bar_width, y_data[i], bar_width, alpha=opacity, label=data.classes[i], color = next(color_iter))
+        else:
+            plt.bar(index * (inter_width + class_num * bar_width) + i * bar_width, y_data[i], bar_width, alpha=opacity, color = next(color_iter))
 
     if data.print_ydata:
         for i in range(class_num):
@@ -55,10 +63,11 @@ def plot_barchart(data: DataStruct):
     y_lim_min = 0 if min([min(y) for y in y_data]) > 0 else min([min(y) for y in y_data]) * 1.2
     plt.ylim(y_lim_min, y_lim_max)
 
-    plt.legend()
-    plt.savefig(dataStruct.filePath, dpi = dataStruct.dpi)
+    if is_label:
+        plt.legend()
+    plt.savefig(data.filePath, dpi = data.dpi)
 
-    if dataStruct.show:
+    if data.show:
         plt.show()
 
 
