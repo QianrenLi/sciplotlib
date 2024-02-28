@@ -24,6 +24,9 @@ class DataStruct():
         self.normalize = False
         self.conf_matrix = []
 
+        # cdf
+        self.line_style = []
+
         # tsne
         self.features = []
         self.tsne_result = []

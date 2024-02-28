@@ -27,12 +27,12 @@ Collections of plot functions for scientific purpose.
   </tr>
   <tr>
     <th align="center">box.py</th>
-    <th align="center">cdf.py</th>
+    <th align="center"><a href="./src/cdf.py" alt="cdf">cdf.py</th>
     <th align="center">pdf.py</th>
   </tr>
   <tr align="center">
     <td>To be updated ...</td>
-    <td>To be updated ...</td>
+    <td><img src="./src/example/cdf.png" alt="cdf plot"></td>
     <td>To be updated ...</td>
   </tr>
 </table>
