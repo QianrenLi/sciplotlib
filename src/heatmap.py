@@ -16,7 +16,6 @@ def heatmap_plot(dataStruct: DataStruct):
     unique_cha1, indices_cha1 = np.unique(dataStruct.xdata, return_inverse=True)
     unique_cha2, indices_cha2 = np.unique(dataStruct.ydata, return_inverse=True)
 
-    min_val = np.min(dataStruct.val)
     # Create a 2D array filled with zeros
     valMesh = np.zeros((len(unique_cha1), len(unique_cha2)))
 
@@ -25,6 +24,7 @@ def heatmap_plot(dataStruct: DataStruct):
         valMesh[indices_cha1[i], indices_cha2[i]] = dataStruct.val[i]
 
     max_val = np.max(valMesh)
+    min_val = np.min(dataStruct.val)
     min_val = np.average(np.min(valMesh) + min_val)
     
     # Create a normalizer that maps values less than 0.5 to under
@@ -32,8 +32,6 @@ def heatmap_plot(dataStruct: DataStruct):
 
     # Plot
     plt.imshow(valMesh, origin='lower', aspect='auto', vmin = min_val, vmax = max_val, cmap=cmap)
-
-    # label
     plt.xticks(np.arange(len(unique_cha2)), np.round(unique_cha2,2))
     plt.yticks(np.arange(len(unique_cha1)), unique_cha1)
 
